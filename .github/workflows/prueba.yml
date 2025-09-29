@@ -4,7 +4,7 @@ env:
   DIA_DE_SEMANA: lunes
 jobs:
   saludo-variables:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       SALUDO: Hola
     steps:
